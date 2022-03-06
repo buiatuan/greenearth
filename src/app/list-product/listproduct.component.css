@@ -1,0 +1,136 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  float: none;
+}
+img{
+  width: 100%;
+}
+.section{
+  float:left;
+  width: 100%;
+}
+.main-background{
+  margin-top: 150px;
+  background-image: url("../../assets/imgs/imgs_home/main-bacground.png");
+}
+.list-product{
+  padding: 50px;
+  float: left;
+}
+.new-product{
+  float: left;
+  width: 100%;
+}
+.new-product h2{
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: 1px solid;
+  padding-left: 50px;
+}
+.new-product h2>a{
+  color: #A4CB92;
+  transition: 300ms;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+.new-product h2:hover>a{
+  color: #85a474;
+}
+.trending-product{
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+.trending-product h2{
+  font-size: 40px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border-bottom: 1px solid;
+}
+.trending-product h2>a{
+  text-decoration: none;
+  color: #4899d5;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+.trending-product h2:hover>a{
+  color: #1a6891;
+}
+.sale-product{
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+.sale-product h2{
+  font-size: 40px;
+  font-weight: 600;
+  padding: 25px 35px;
+  border-bottom: 1px solid;
+}
+.sale-product h2>a{
+  text-decoration: none;
+  color: #E48288;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+.product{
+  width: 33.3%;
+  float: left;
+  padding: 30px 25px;
+}
+.product .icon{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.product h4{
+  padding: 10px 0;
+
+  border-bottom: 1px solid;
+}
+.product h4>a{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 3px;
+  color: #73585a;
+
+}
+.product p{
+  padding: 5px 0;
+}
+.product .icon{
+  padding: 10px 0;
+
+}
+.product p i{
+  padding-left: 5px;
+  color: #73585A;
+}
+.icon .icon-color i{
+  color: #FFBC7D;
+}
+.icon-color .fa-droplet{
+  color: #70DAE1;
+}
+.icon h3{
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+.sale-product .product .icon h3{
+  text-decoration: line-through;
+}
+.product h4{
+  position: relative;
+}
+.product .new-cost{
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #E48288;
+}
