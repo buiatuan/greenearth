@@ -11,6 +11,9 @@ import {TrendingProductComponent} from "./trendingproduct/trendingproduct.compon
 import {SaleProductComponent} from "./saleproduct/saleproduct.component";
 import {RouterModule, Routes} from "@angular/router";
 import {SearchComponent} from "./search/search.component";
+import {LienHeComponent} from "./lienhe/lienhe.component";
+import {ThueCayCanhComponent} from "./thuecaycanh/thuecaycanh.component";
+import {HDChamCayComponent} from "./hdchamcay/hdchamcay.component";
 
 const appRoutes: Routes =[
   {path:"",component:HomeComponent},
@@ -19,6 +22,9 @@ const appRoutes: Routes =[
   {path:"trending-product",component:TrendingProductComponent},
   {path:"sale-product",component:SaleProductComponent},
   {path:"search-product",component:SearchComponent},
+  {path:"lienhe",component:LienHeComponent},
+  {path:"thuecaycanh",component:ThueCayCanhComponent},
+  {path:"hdchamcay",component:HDChamCayComponent},
 ]
 @NgModule({
   declarations: [
@@ -31,6 +37,9 @@ const appRoutes: Routes =[
     TrendingProductComponent,
     SaleProductComponent,
     SearchComponent,
+    LienHeComponent,
+    ThueCayCanhComponent,
+    HDChamCayComponent
   ],
   imports: [
     BrowserModule,
