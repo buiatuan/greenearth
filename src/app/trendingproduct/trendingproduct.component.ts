@@ -13,28 +13,28 @@ export class TrendingProductComponent{
       cost: 21000,
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/hong-mon.jpg',
+      name: 'Hồng Môn',
       cost: 21000,
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/cau-tieu-tram.jpg',
+      name: 'Cau Tiểu Châm',
       cost: 21000,
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/sendapreta.jpg',
+      name: 'Sen Đá Preta',
       cost: 21000,
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/trau-ba-nam.jpg',
+      name: 'Trầu Bà Nam',
       cost: 21000,
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/de-vuong.jpg',
+      name: 'Đế Vương',
       cost: 21000,
     },
   ];

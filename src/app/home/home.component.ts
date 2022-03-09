@@ -26,20 +26,20 @@ export class HomeComponent{
 
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/cau-tieu-tram.jpg',
+      name: 'Cau Tiểu Châm',
       desc: 'Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.',
 
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/co-guong.jpg',
+      name: 'Cỏ Gương',
       desc: 'Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.',
 
     },
     {
-      img:  './assets/imgs/imgs_product/kimtien.png',
-      name: 'Kim tiền',
+      img:  './assets/imgs/imgs_product/hong-mon.jpg',
+      name: 'Hồng Môn',
       desc: 'Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.',
 
     },

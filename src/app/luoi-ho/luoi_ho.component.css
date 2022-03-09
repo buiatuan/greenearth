@@ -1,0 +1,205 @@
+
+.row{
+  width: 100%;
+  float: left;
+  margin-top: 100px;
+}
+.product-details{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.list-imgs{
+  width: 10%;
+  float: left;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.list-imgs ul{
+  margin-top: 90px;
+}
+.list-imgs ul li{
+  width: 100%;
+  float: left;
+  list-style: none;
+}
+.list-imgs ul li img{
+  width: 50%;
+}
+.view-imgs{
+  width: 35%;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.comformation-product{
+  width: 35%;
+  float: left;
+  padding: 20px 30px;
+  margin-top: 50px;
+}
+.comformation{
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+.comformation h3{
+  border-bottom: 1px solid;
+  font-family: 'Cormorant Garamond', serif;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: 2.5px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #A7BEB8;
+  position: relative;
+}
+.comformation h3 span{
+  text-transform: none;
+  color: #E48288;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.comformation p{
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding-bottom: 6px;
+}
+.select-pots{
+  width: 100%;
+  float: left;
+}
+.select-pots li{
+  width: 20%;
+  float: left;
+  list-style: none;
+  padding: 9px 10px;
+  margin: 0 9px;
+  background-color: #FFFDF8;
+  border: 1px solid #E0D6BC;
+  border-radius: 5px;
+}
+.select-pots li:first-child{
+  background-color: #A4CB92;
+}
+.select-pots li:first-child>a{
+  color: #FAFCF9;
+}
+.select-pots li a{
+  text-decoration: none;
+  color: #73585A;
+}
+.select-pots li:hover{
+  background-color: #A4CB92;
+  transition: 300ms;
+}
+.select-pots li:hover>a{
+  color: #FAFCF9;
+}
+.select-size{
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  position: relative;
+}
+.select-size li{
+  list-style: none;
+  width: 15%;
+  float: left;
+  padding: 5px 0;
+  margin-right: 15px;
+}
+.select-size li p{
+  width: 65%;
+}
+.select-size li a{
+  text-decoration: none;
+  color: #75646c;
+}
+.select-size li:first-child p{
+  border-bottom: 1px solid #E0D6BC;
+}
+.select-size li:hover p{
+  border-bottom: 1px solid #E0D6BC;
+}
+.select-size>span{
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+}
+.form-box{
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #A4CB92;
+  border-radius: 5px;
+}
+.form-box:hover{
+  background-color: #79af5e;
+}
+.form-box a{
+  text-decoration: none;
+  color: #FAFCF9;
+}
+.tutorial-tree{
+  width: 100%;
+  float: left;
+  background-color: #F6F5F3;
+  padding: 20px 70px;
+  margin-top: 50px;
+}
+.tutorial-tree h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.steps{
+  width: 33.3%;
+  float: left;
+  height: 120px;
+  padding: 15px 30px;
+  position: relative;
+}
+.steps i{
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.steps h5{
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.steps p{
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+sale-product{
+  width: 100%;
+  float: left;
+  margin-top: -70px;
+}
+.title-sale{
+  width: 100%;
+  float: left;
+  padding: 30px 90px;
+  margin-bottom: -110px;
+}
+.title-sale h2{
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: #ce8483;
+}
+
