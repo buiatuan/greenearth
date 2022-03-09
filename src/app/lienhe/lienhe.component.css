@@ -1,0 +1,75 @@
+.lh-title{
+  color: #73585A;
+  font-size:25px;
+  font-weight:400;
+  margin-left: 70px;
+}
+.container{
+  background-image: url("../../assets/imgs/imgs_lienhe/lh_bgr.png");
+  margin-top: 100px;
+}
+.lh-content{
+  color: #E4737A;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  padding-left:350px;
+  margin-top: 65px;
+}
+.lh-form{
+  width: 100%;
+  padding-left: 300px;
+}
+.lh-row{
+  width: 100%;
+}
+.lh-form p{
+  font-size: 15px ;
+}
+.lh-item{
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+}
+.lh-left{
+  padding-right: 30px;
+}
+.lh-right{
+  padding-left: 30px;
+}
+.lh-description {
+  width: 100%;
+  margin-top: 280px;
+}
+.lh-description textarea{
+  width: 100%;
+  padding-left: 10px;
+}
+.lh-itembox input{
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+}
+.lh-file{
+  margin-top: 20px;
+}
+.lh-add button{
+  width: 100px;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  background-color: #97C482;
+  color: #EEEEEE;
+  border: 0;
+  border-radius: 3px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.lh-add button:hover{
+  background-color: #E48288;
+}
+.uli li{
+  list-style: none;
+}
+.uli ul{
+  margin-top: 30px;
+}
