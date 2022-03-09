@@ -14,6 +14,9 @@ import {SearchComponent} from "./search/search.component";
 import {IntroduceComponent} from "./introduce/introduce.component";
 import {KienTrucXanhComponent} from "./kientrucxanh/kientrucxanh.component";
 import {YeuCayComponent} from "./yeucay/yeucay.component";
+import {LienHeComponent} from "./lienhe/lienhe.component";
+import {HDChamCayComponent} from "./hdchamcay/hdchamcay.component";
+import {ThueCayCanhComponent} from "./thuecaycanh/thuecaycanh.component";
 
 const appRoutes: Routes =[
   {path:"",component:HomeComponent},
@@ -25,6 +28,9 @@ const appRoutes: Routes =[
   {path:"introduce",component:IntroduceComponent},
   {path:"kien-truc-xanh",component:KienTrucXanhComponent},
   {path:"yeu-cay",component:YeuCayComponent},
+  {path:"thue-cay-canh",component:ThueCayCanhComponent},
+  {path:"lien-he",component:LienHeComponent},
+  {path:"HD-cham-cay",component:HDChamCayComponent},
 
 ]
 @NgModule({
@@ -41,6 +47,9 @@ const appRoutes: Routes =[
     IntroduceComponent,
     KienTrucXanhComponent,
     YeuCayComponent,
+    LienHeComponent,
+    HDChamCayComponent,
+    ThueCayCanhComponent,
   ],
   imports: [
     BrowserModule,
