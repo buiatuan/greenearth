@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  float: none;
+}
+img{
+  width: 100%;
+}
+.section{
+  float:left;
+  width: 100%;
+}
+header{
+  /*width: 100%;*/
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  height: 60px;
+  float: left;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+}
+.top-link{
+  width: 100%;
+  float: left;
+}
+.logo{
+  max-width: 30%;
+  float: left;
+}
+.logo img{
+  width: 160px;
+  height: 24px;
+  margin: 16px 0 16px 70px;
+}
+.menu{
+  max-width: 70%;
+  float: left;
+}
+.main-menu{
+  float: left;
+  list-style: none;
+  margin-left: 180px;
+}
+.main-menu>li{
+  float: left;
+  padding-left: 25px;
+  padding-right: 20px;
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+}
+.main-menu li a{
+  color: #584345;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 400ms;
+  font-weight: 400;
+}
+.main-menu li:hover>a{
+  color: #E48288;
+}
+.main-menu li:hover{
+  background-color: #f3f0f0;
+  transition: 300ms;
+}
+.sub-menu{
+  width: 100%;
+  position: absolute;
+  list-style: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 2px 1px #e4e7e8;
+  transition: 500ms;
+  left: 0;
+  display: none;
+}
+.sub-menu li{
+  line-height: 45px;
+  text-align: center;
+}
+.main-menu li:hover .sub-menu{
+  display: block;
+  transition-delay: 500ms;
+}

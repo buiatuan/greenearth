@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="sale-product col-md-12">
+    <h2><a href="#">Sale..</a></h2>
+    <div class="product col-md-4" *ngFor="let sale of list_product_sale">
+      <img src="{{sale.img}}" alt="kim tiền"/>
+      <h4><a href="#">{{sale.name}}</a> <span class="new-cost">{{sale.new_cost}}<sup>đ</sup></span></h4>
+      <div class="icon">
+        <p>Ánh sáng:<span class="icon-color"> <i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></span><i class="fa-solid fa-sun"></i><i class="fa-solid fa-sun"></i></p>
+        <p>Độ ẩm:<span class="icon-color">  <i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></span><i class="fa-solid fa-droplet"></i><i class="fa-solid fa-droplet"></i></p>
+        <h3>{{sale.cost}}<sup>đ</sup></h3>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,4 @@
 .main{
-  /*width: 100%;*/
   float: left;
   background-color: #FFFFFF;
 }
@@ -211,15 +210,14 @@
   width: 60%;
   background-color: #F9FAF7;
   position: absolute;
-  top: 184px;
+  top: 160px;
   left: 114px;
-  height: 40%;
   border-radius: 15px;
+  padding: 20px;
 }
 .contact-address h3{
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  padding-top: 28px;
   font-size: 25px;
   font-weight: 400;
   padding-left: 20px;
@@ -248,15 +246,14 @@
   width: 60%;
   background-color: #F9FAF7;
   position: absolute;
-  top: 184px;
+  top: 160px;
   left: 114px;
-  height: 40%;
   border-radius: 15px;
+  padding: 20px 10px;
 }
 .about-us-introduce h3 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  padding-top: 25px;
   font-size: 28px;
   font-weight: 400;
   padding-left: 20px;
@@ -293,9 +290,10 @@
   padding: 10px 30px 30px;
   line-height: 24px;
 }
-.sumbit-share{
+.sumbit-share {
   width: 50%;
   float: left;
+  margin-top: 50px;
 }
 .form-list{
   width: 50%;
@@ -305,7 +303,7 @@
 }
 .form-control{
   width: 100%;
-  padding: 10px;
+  padding: 7px;
   margin: 10px ;
 }
 .sumbit-share button{

@@ -13,42 +13,11 @@
     <div class="main-background">
       <h2>top sản phẩm nổi bật</h2>
       <div class="list-product">
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/kimtien.png" alt="kim tiền"/>
-          <h4>kim tiền</h4>
-          <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
+        <div class="product" *ngFor="let home of list_product_home">
+          <img src="{{home.img}}" alt="kim tiền"/>
+          <h4>{{home.name}}</h4>
+          <p>{{home.desc}}</p>
           <span><a href="#">Chi tiết  &gt;</a></span>
-        </div>
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/bangcanh.png" alt="bàng cảnh"/>
-          <h4>bàng cảnh</h4>
-          <p>Cây Bàng Singapore phù hợp làm cây văn phòng, trang trí nội thất, cây trong nhà. Vị trí thích hợp để cây ở sảnh khách sạn, quầy thu ngân…</p>
-          <span><a href="#">Chi tiết &gt;</a></span>
-        </div>
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/luoiho.png" alt="lưỡi hổ"/>
-          <h4>lưỡi hổ</h4>
-          <p>Cây Lưỡi Hổ có tác dụng thanh lọc không khí,
-            hấp thụ chất gây ô nhiễm, cải thiện không gian sống, vào ban đêm cây nhả oxi. Cây phù hợp để bàn, phòng ngủ...</p>
-          <span><a href="#">Chi tiết &gt;</a></span>
-        </div>
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/kimtien.png" alt="kim tiền"/>
-          <h4>kim tiền</h4>
-          <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-          <span><a href="#">Chi tiết &gt;</a></span>
-        </div>
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/luoiho.png" alt="kim tiền"/>
-          <h4>lưỡi hổ</h4>
-          <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-          <span><a href="#">Chi tiết &gt;</a></span>
-        </div>
-        <div class="product">
-          <img src="./assets/imgs/imgs_home/bangcanh.png" alt="kim tiền"/>
-          <h4>bàng cảnh</h4>
-          <p>Cây Kim Tiền hay còn gọi là cây kim phát tài, theo sách phong thủy xưa ghi lại là loại cây mang đến tài lộc, may mắn, phú quý, lịch lãm, giàu sang, tiền bạc cho gia chủ.</p>
-          <span><a href="#">Chi tiết &gt;</a></span>
         </div>
       </div>
       <div class="introduce">
