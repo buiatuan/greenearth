@@ -19,6 +19,7 @@ import {HDChamCayComponent} from "./hdchamcay/hdchamcay.component";
 import {ThueCayCanhComponent} from "./thuecaycanh/thuecaycanh.component";
 import {ButtomComponent} from "./buttom/buttom.component";
 import {LuoiHoComponent} from "./luoi-ho/luoi_ho.component";
+import {TraiNghiemTaiVuonComponent} from "./trai-nghiem-tai-vuon/trai_nghiem_tai_vuon.component";
 
 const appRoutes: Routes =[
   {path:"",component:HomeComponent},
@@ -34,6 +35,7 @@ const appRoutes: Routes =[
   {path:"lien-he",component:LienHeComponent},
   {path:"HD-cham-cay",component:HDChamCayComponent},
   {path:"luoi-ho",component:LuoiHoComponent},
+  {path:"trai-nghiem-tai-vuon",component:TraiNghiemTaiVuonComponent},
 
 ]
 @NgModule({
@@ -51,7 +53,7 @@ const appRoutes: Routes =[
     LienHeComponent,
     HDChamCayComponent,
     ThueCayCanhComponent,
-    LuoiHoComponent,
+    LuoiHoComponent,TraiNghiemTaiVuonComponent,
   ],
   imports: [
     BrowserModule,

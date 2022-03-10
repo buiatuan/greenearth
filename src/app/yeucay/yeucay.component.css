@@ -159,7 +159,9 @@
   margin-top: 35px;
   font-style: italic;
 }
-
+.col-3 .button:hover{
+  background-color: #709d5c;
+}
 .col-2 .a .button{
   float: right;
   font-family: 'Cormorant Garamond', sans-serif;
@@ -175,6 +177,9 @@
   margin-right: -65px;
   font-style: italic;
 }
+.col-2 .a .button:hover{
+  background-color: #709d5c;
+}
 .col-2 .c .button{
   float: right;
   font-family: 'Cormorant Garamond', sans-serif;
@@ -189,6 +194,9 @@
   font-size: 23px;
   margin-top: 35px;
   margin-right: -6px;
+}
+.col-2 .c .button:hover{
+  background-color: #709d5c;
 }
 .introduce{
   width: 100%;
